@@ -1,0 +1,21 @@
+{
+  "name": "2_jwt",
+  "version": "1.0.0",
+  "main": "api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"node api.js",
+    "start": "nodemon api.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "promisify": "^0.0.3",
+    "util": "^0.12.5"
+  }
+}
